@@ -23,8 +23,13 @@ x
 
 x
 
-``` plantuml
+```
+@startuml
+Foo --> Bar
+@enduml
+```
 
+``` plantuml
 @startuml
 
 class Person {
@@ -38,6 +43,5 @@ class Person {
 }
 
 @enduml
-
 ```
 
